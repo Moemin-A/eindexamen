@@ -9,7 +9,7 @@ class LesPlanning extends Controller
 
     public function __contstruct()
     {
-      $this->artikelModel = $this->model('Lessen');
+      $this->lesModel = $this->model('Lessen');
     }
   
     public function index($message = "") 

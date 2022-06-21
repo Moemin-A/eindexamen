@@ -2,7 +2,7 @@
 
 
 /**
- * Dit is de testclass voor de LesPlanning controller class
+ * Dit is de testclass voor de countries controller class
  */
 
 
@@ -14,15 +14,15 @@ use PHPUnit\Framework\TestCase;
 use TDD\controllers\LesPlanning;
 
 
- class lesPlanningTest extends TestCase
+ class lesTest extends TestCase
  {
    /**
     * @dataProvider provideSayMyName
     */
     public function testSayMyName($input,$expected)
     {
-        $LesPlanning = new lesPlanningTest();
-        $output = $LesPlanning->sayMyName($input);
+        $les = new LesPlanning();
+        $output = $les->sayMyName($input);
         $message = "Er moet uitkomen: 'Mijn naam is: $input'";
 
         $this->assertEquals($expected,
@@ -31,6 +31,7 @@ use TDD\controllers\LesPlanning;
 
     }
 
+    // SayMyName test result cases
     public function provideSayMyName()
     {
       return [

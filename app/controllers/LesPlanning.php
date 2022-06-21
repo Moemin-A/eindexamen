@@ -12,27 +12,28 @@ class LesPlanning extends Controller
       $this->lesModel = $this->model('Lessen');
     }
   
-    // public function index($message = "") 
-    // {
+    public function index($message = "") 
+    {
+    header("Refresh: 3; /LesPlanning/insertLes");
 
-    // // Als message leeg is switch case maken met goed / fout meldingen
-    // if (!empty($message)) {
-    //         switch ($message) {
-    //             case 'creating-success':
-    //                 echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-    //                 Succesvol toegevoegd.
-    //                 </div>';
-    //                 header("Refresh: 3; /LesPlanning/insertLes");
-    //                 break;
-    //             case 'creating-failed':
-    //                 echo'<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-    //                 Er is iets fout gegaan bij het toevoegen.
-    //                 </div>';
-    //                 header("Refresh: 5; /LesPlanning/insertLes");
-    //                 break;
-    //         }
-    //     }
-    // }
+    // Als message leeg is switch case maken met goed / fout meldingen
+    if (!empty($message)) {
+            switch ($message) {
+                case 'creating-success':
+                    echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                    Succesvol toegevoegd.
+                    </div>';
+                    header("Refresh: 3; /LesPlanning/insertLes");
+                    break;
+                case 'creating-failed':
+                    echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                    Er is iets fout gegaan bij het toevoegen.
+                    </div>';
+                    header("Refresh: 5; /LesPlanning/insertLes");
+                    break;
+            }
+        }
+    }
     
     // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
     // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model

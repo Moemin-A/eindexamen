@@ -42,6 +42,9 @@
                 <select name="leerlingid" id="leerlingid">
                 <option value="1">Moemin</option>
                 <option value="2">Hans</option>
+                <option value="3">Berkan</option>
+                <option value="4">Adam</option>
+                <option value="5">Arjan</option>
                 </select><br><br>
             </td>
         </tr> 

@@ -31,12 +31,12 @@ class Lessen
             echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
             Succesvol toegevoegd.
             </div>';
-            header("Refresh:3; url = " . URLROOT . "les-inplannen");
+            header("Refresh: 3; /LesPlanning/insertLes");
         } catch (PDOException $e) {
             echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
             Er is iets fout gegaan bij het toevoegen.
             </div>';
-            header("Refresh:3; url = " . URLROOT . "les-inplannen");
+            header("Refresh: 3; /LesPlanning/insertLes");
         }
     }
 }

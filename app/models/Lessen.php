@@ -15,23 +15,28 @@ class Lessen
         try {
             // prepare sql and bind parameters
             // var_dump($post); echo "Hallo";exit();
-
-            $this->db->query("INSERT INTO artikel  (Id, Omschrijving, TijdGeleend, Persoon, CategorieId) 
-                              VALUES (:id, :omschrijving, :tijdgeleend, :persoon, :categorieid)");
+            $this->db->query("INSERT INTO lesplanning  (Id, DatumTijd, Ophaaladres, Lesdoel, LeerlingId) 
+                              VALUES (:id, :datumentijd, :adres, :lesdoel, :leerlingid)");
 
             $this->db->bind(":id", NULL);
-            $this->db->bind(":omschrijving", $post["omschrijving"]);
-            $this->db->bind(":tijdgeleend", ($post["tijdgeleend"]));
-            $this->db->bind(":persoon", ($post["persoon"]));
-            $this->db->bind(":categorieid", ($post["categorieid"]));
+            $this->db->bind(":datumentijd", $post["datumentijd"]);
+            $this->db->bind(":adres", ($post["adres"]));
+            $this->db->bind(":lesdoel", ($post["lesdoel"]));
+            $this->db->bind(":leerlingid", ($post["leerlingid"]));
 
 
             $this->db->execute(); //exit();
 
             // Checks for success / errors and prints message accordingly
-            header("Refresh:1; url = " . URLROOT . "LesPlanning/creating-success");
+            echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+            Succesvol toegevoegd.
+            </div>';
+            header("Refresh:3; url = " . URLROOT . "les-inplannen");
         } catch (PDOException $e) {
-            header("Refresh:1; url = " . URLROOT . "LesPlanning/creating-failed");
+            echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+            Er is iets fout gegaan bij het toevoegen.
+            </div>';
+            header("Refresh:3; url = " . URLROOT . "les-inplannen");
         }
     }
 }

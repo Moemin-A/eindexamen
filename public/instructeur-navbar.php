@@ -15,10 +15,13 @@
         <div class="sidebar">
             <h2>controle paneel</h2>
             <ul>
-                <li><a href="http://oefenkerntaakexamen.nl/index"><i class="fas fa-home"></i>Thuis Pagina</a></li>
+                <li><a href="http://eindexamen.com/index"><i class="fas fa-home"></i>Thuis Pagina</a></li>
             </ul>
             <ul>
-                <li><a href="http://oefenkerntaakexamen.nl/LesPlanning"><i class="fas fa-list"></i>Les Inplannen</a></li>
+            <form method="get" action="/LesPLanning/insertLes">
+                <button type="submit">Les Inplannen</button>
+            </form>
+                <!-- <li><a href="http://eindexamen.com/LesPlanning/insertLes"><i class="fas fa-list"></i>Les Inplannen</a></li> -->
             </ul>
         </div>
     </div>

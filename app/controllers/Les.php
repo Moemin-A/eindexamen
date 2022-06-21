@@ -27,22 +27,22 @@ class Les extends Controller
                     </div>';
                     header("Refresh: 3; /index");
                     break;
-                case 'creating-success':
-                    echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-                    Succesvol toegevoegd.
-                    </div>';
-                    header("Refresh: 3; /les");
-                    break;
-                case 'creating-failed':
-                    echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-                    Er is iets fout gegaan bij het toevoegen.
-                    </div>';
-                    header("Refresh: 5; /les");
-                    break;
+                // case 'creating-success':
+                //     echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                //     Opmerking toegevoegd
+                //     </div>';
+                //     header("Refresh: 3; /les");
+                //     break;
+                // case 'creating-failed':
+                //     echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                //     Er is iets fout gegaan bij het toevoegen.
+                //     </div>';
+                //     header("Refresh: 5; /les");
+                //     break;
             }
         }
        
-    // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
+    // Artikels tonen met de juiste leerling en naar de lessen model sturen 
     $lessen = $this->model('Lessen');
 
         try {
@@ -57,7 +57,7 @@ class Les extends Controller
         } catch (PDOException $e) { 
             header("Refresh:3; url = " . URLROOT . "les/reading-failed");
         }
-        // Data bewaren in een array en naar magazijn view sturen
+        // Data bewaren in een array en naar lessen view sturen
         $data = [
             "records1" => $records1,
             // "records2" => $records2,
@@ -69,8 +69,8 @@ class Les extends Controller
         $this->view('lessen/lessen', $data);
     }
 
-    // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
-    // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
+    // InsertController die als je niet in POST zit naar de les opmerking view stuurd
+    // Als dit wel zo is wordt je doorgestuurd naar de lessen model via de functie opmerkingInsert
     public function insertOpmerking() 
     {
         // Initialiseer het $data array
@@ -113,15 +113,11 @@ class Les extends Controller
 
         if (empty($data['opmerking'])){
             $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            Vul het opmerking in.
+            opmerking leeg.
             </div>';
         }elseif (filter_var($data['opmerking'], FILTER_VALIDATE_EMAIL)){
             $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
             U heeft een emailadres ingevuld, graag een opmerking invullen
-            </div>';
-        }elseif (!preg_match($omschrijvingValidation, $data['opmerking'])){
-            $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            U mag alleen (hoofd)letters gebruiken voor het opmerking.
             </div>';
         }
 

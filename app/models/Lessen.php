@@ -9,7 +9,7 @@ class Lessen
         $this->db = new Database;
     }
 
-    //  Selects all artikels in artikel depending on categorie number
+    //  Selects all lessen in lessen depending on leerling number
     public function getLessen($leerling)
     {
         $this->db->query("SELECT * FROM lessen WHERE Leerling = :id ORDER BY `Datum` ASC");
@@ -17,7 +17,7 @@ class Lessen
         return  $this->db->resultSet();
     }
 
-    // Fetches post request from controller submit and inserts les
+    // Fetches post request from controller submit and inserts opmerking
     public function opmerkingInsert($post)
     {
         try {
@@ -34,7 +34,7 @@ class Lessen
 
             // Checks for success / errors and prints message accordingly
             echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-            Succesvol toegevoegd.
+            Opmerking toegevoegd.
             </div>';
             header("Refresh: 3; /Les/insertOpmerking");
         } catch (PDOException $e) {

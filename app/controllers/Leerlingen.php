@@ -72,14 +72,12 @@ class Leerling extends Controller
         
             if (empty($data['instructeurError']) && empty($data['mededelingenError'])) {
                 if ($this->leerlingModel->createLeerling($_POST)) {
-                    header("Location:" . URLROOT . "/leerlingen/index");
-                } else {
-                    echo "<div class='alert alert-danger' role='alert'>
-                            Er heeft een interne servererror plaatsgevonden<br>probeer het later nog eens...
-                        </div>";
-                    header("Refresh:3; url=" . URLROOT . "/leerlingen/index");
+                    echo "<div class='alert alert-success' role='alert'>
+                    Mededeling verzonden!
+                </div>";
+            header("Refresh:3; url=" . URLROOT . "/leerlingen/index");
                 }
-            }
+
         } 
 
         $this->view("leerlingen/create", $data);    

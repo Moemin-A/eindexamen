@@ -31,8 +31,6 @@ class Instructeurs extends Controller
                         <td>" . $value->naam . "</td>
                         <td>" . $value->tel . "</td>
                         <td>" . $value->geslacht . "</td>
-                        <td><a href='" . URLROOT . "/docenten/update/$value->id'><i class='bi bi-pencil-square'></i></a></td>
-                        <td><a href='" . URLROOT . "/docenten/delete/$value->id'><i class='bi bi-x-square'></i></a></td>
                         </tr>";
         }
 
@@ -74,7 +72,10 @@ class Instructeurs extends Controller
         
             if (empty($data['instructeurError']) && empty($data['mededelingenError'])) {
                 if ($this->instructeurModel->createInstructeur($_POST)) {
-                    header("Location:" . URLROOT . "/instructeurs/index");
+                    echo "<div class='alert alert-success' role='alert'>
+                    Mededeling verzonden!
+                </div>";
+            header("Refresh:3; url=" . URLROOT . "/instructeurs/index");
                 } else {
                     echo "<div class='alert alert-danger' role='alert'>
                             Er heeft een interne servererror plaatsgevonden<br>probeer het later nog eens...
@@ -93,7 +94,7 @@ class Instructeurs extends Controller
         }
 
         if (empty($data['mededelingen'])) {
-        $data['mededelingenError'] = 'U heeft nog geen mededeling ingevuld';
+        $data['mededelingenError'] = 'Mededeling leeg, kan niet';
         }
         return $data;
     }

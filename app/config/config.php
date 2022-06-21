@@ -1,4 +1,5 @@
-<?php
+<?php 
+    // Final Commit
     
     //Database params
     define('DB_HOST', 'localhost'); //Add your db host

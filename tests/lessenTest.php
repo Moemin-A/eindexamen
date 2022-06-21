@@ -11,18 +11,18 @@ namespace TDD\Test;
 require dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 
 use PHPUnit\Framework\TestCase;
-use TDD\controllers\Artikels;
+use TDD\controllers\Les;
 
 
- class artikelsTest extends TestCase
+ class lesTest extends TestCase
  {
    /**
     * @dataProvider provideSayMyName
     */
     public function testSayMyName($input,$expected)
     {
-        $artikels = new Artikels();
-        $output = $artikels->sayMyName($input);
+        $les = new Les();
+        $output = $les->sayMyName($input);
         $message = "Er moet uitkomen: 'Mijn naam is: $input'";
 
         $this->assertEquals($expected,

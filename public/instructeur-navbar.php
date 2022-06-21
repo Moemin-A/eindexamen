@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 
-<!-- de navbar voor de docent -->
+<!-- de navbar voor de instructeur -->
 <body>
     <div class="wrapper">
         <div class="sidebar">

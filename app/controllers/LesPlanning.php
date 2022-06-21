@@ -35,8 +35,8 @@ class LesPlanning extends Controller
         }
     }
     
-    // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
-    // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
+    // InsertController die als je niet in POST zit naar de les inplannen view stuurd
+    // Als dit wel zo is wordt je doorgestuurd naar de lessen model via de functie lesInsert
     public function insertLes() 
     {
         // Initialiseer het $data array

@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Artikel Toevoegen</title>
+    <title>Les Inplannen</title>
 
     <!-- meta tags -->
     <meta charset="utf-8">

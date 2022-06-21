@@ -6,7 +6,7 @@ define('DB_NAME', 'mydb');
 
 define('APPROOT', dirname(dirname(__FILE__))) ;
 
-define('URLROOT', 'http://www.userstory2.nl');
+define('URLROOT', 'http://www.userstory2git.nl');
 
 define('SITENAME', 'MVC Framework');
 ?>

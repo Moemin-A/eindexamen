@@ -2943,3 +2943,362 @@ Stack trace:
 [21-Jun-2022 12:47:46 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
 [21-Jun-2022 12:47:46 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Artikels.php:69
 [21-Jun-2022 12:47:46 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:22:16 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:20 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:40 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:23:53 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:33 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:24:43 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:26:23 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Notice:  Undefined index: lesdoel in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 32
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Notice:  Undefined index: leerlingid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 33
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 47
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:00 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:47
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP Notice:  Undefined index: datumentijd in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP Notice:  Undefined index: adres in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 31
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:31) in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 46
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:27:37 Europe/Amsterdam] PHP   6. header() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php:46
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP Notice:  Undefined index: les in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:28:24 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP Notice:  Undefined index: les in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:28:50 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP Notice:  Undefined index: les in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:28:57 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP Notice:  Undefined index: les in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:29:03 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP Notice:  Undefined index: les in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:30:04 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:31:16 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 30
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP Stack trace:
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertOpmerking() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[21-Jun-2022 13:31:24 Europe/Amsterdam] PHP   5. Lessen->opmerkingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:94

@@ -40,7 +40,7 @@
 
         <div class="main_content">
         <center>
-            <div class="header" style="font-size:30px;">Welkom leerling!</div>
+            <div class="header" style="font-size:30px;">Welkom Konijn!</div>
             <div class="info"></center>
 
                 

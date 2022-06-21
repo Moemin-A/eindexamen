@@ -57,7 +57,7 @@
 </table>
     <div class="info">
 </div>
-<form method="get" action="/les/insertAanvraag">
+<form method="get" action="/Les/insertOpmerking">
     <button type="submit">Opmerking Toevoegen</button>
 </form>
 </div>

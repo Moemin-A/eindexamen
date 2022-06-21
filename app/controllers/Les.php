@@ -71,86 +71,60 @@ class Les extends Controller
 
     // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
     // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
-    public function insertAanvraag() 
+    public function insertOpmerking() 
     {
         // Initialiseer het $data array
         $data = [
-            'omschrijving' => '',
-            'omschrijvingError' => '',
-            'tijdgeleend' => '',
-            'tijdgeleendError' => '',
-            'persoon' => '',
-            'persoonError' => ''
+            'opmerking' => '',
+            'opmerkingError' => ''
         ];
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
             $data = [
-                'omschrijving' => trim($_POST['omschrijving']),
-                'omschrijvingError' => '',
-                'tijdgeleend' => trim($_POST['tijdgeleend']),
-                'tijdgeleendError' => '',
-                'persoon' => trim($_POST['persoon']),
-                'persoonError' => ''
+                'opmerking' => trim($_POST['opmerking']),
+                'opmerkingError' => ''
             ];
 
             $data = $this->validateCreateForm($data);
 
-            if (empty($data['omschrijvingError']) && empty($data['tijdgeleendError']) && empty($data['persoonError'])) {
-                $artikels = $this->model('Artikelen');
-                $artikels->artikelInsert($_POST);
+            if (empty($data['opmerkingError']) ) {
+                $lessen = $this->model('Lessen');
+                $lessen->opmerkingInsert($_POST);
             }
 
         } {
-            $this->view('lessen/artikel-toevoegen', $data);
+            $this->view('lessen/les-opmerking', $data);
         }
         
     }
 
+    // Unit test
     public function sayMyName($name)
     {
         return "Hallo mijn naam is : " . $name;
     }
 
+    // Error messages on input 
     private function validateCreateForm($data) {
 
         $omschrijvingValidation = "/^[a-zA-Z]*$/";
-        $persoonValidation = "/^[0-9]*$/";
 
-        if (empty($data['omschrijving'])){
-            $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            Vul de omschrijving in.
+        if (empty($data['opmerking'])){
+            $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            Vul het opmerking in.
             </div>';
-        }elseif (filter_var($data['omschrijving'], FILTER_VALIDATE_EMAIL)){
-            $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            U heeft een emailadres ingevuld, graag een artikelomschrijving invullen
+        }elseif (filter_var($data['opmerking'], FILTER_VALIDATE_EMAIL)){
+            $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U heeft een emailadres ingevuld, graag een opmerking invullen
             </div>';
-        }elseif (!preg_match($omschrijvingValidation, $data['omschrijving'])){
-            $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            U mag alleen (hoofd)letters gebruiken voor de artikelomschrijving.
+        }elseif (!preg_match($omschrijvingValidation, $data['opmerking'])){
+            $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U mag alleen (hoofd)letters gebruiken voor het opmerking.
             </div>';
         }
 
-        if (empty($data['tijdgeleend'])){
-            $data['tijdgeleendError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            Vul de tijd in.
-            </div>';
-        }
-
-        if (empty($data['persoon'])){
-            $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            Vul het persoonsnummer in.
-            </div>';
-        }/*elseif (filter_var($data['persoon'], FILTER_VALIDATE_INT)){
-            $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            U heeft geen geheel getal ingevuld.
-            </div>';}*/
-        elseif (!preg_match($persoonValidation, $data['persoon'])){
-            $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            U heeft een letter ingevuld, vul graag een persoonsnummer invullen.
-            </div>';
-        }
         return $data;
     }
     

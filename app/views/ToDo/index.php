@@ -1,24 +1,20 @@
 <br>
-  <?php 
+<?php 
     if(!empty($data["alert"])){
         echo $data["alert"];
-        header("Refresh: 2; url=" . URLROOT. "/todo/index");
+        header("Refresh: 2; url=" . URLROOT. "/Autos/index");
     }
     ?>
-<h3>Artikelen overzicht</h3>
-<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/ToDo/create" role="button">Nieuw artikel toevoegen</a>
-<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/todo/indexAdmin" role="button">Admin view</a>
+<h3>Auto's overzicht</h3>
+<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Autos/create" role="button">Mankement melden</a>
 
 <br>
 <table class="table table-dark table-striped">
 <br>
   <thead>
-    <th scope="col">omschrijving</th>
-    <th scope="col">AantalInBeschikking</th>
-    <th scope="col">AantalInLeen</th>
-    <th scope="col">CatogorieId</th>
-    <th scope="col">Update</th>
-    <th scope="col">Delete</th>
+    <th scope="col">Kenteken </th>
+    <th scope="col">Type</th>
+    
   </thead>
   <tbody>
     <?=$data['records']?>
@@ -35,8 +31,9 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
 
-    <title>title>
+    <title><title>
   </head>
   <body>
 
@@ -46,6 +43,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/public/css/style.css">
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

@@ -1,4 +1,4 @@
-<?=$data['title'];?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,6 +18,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/public/css/style.css">
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -31,48 +32,46 @@
 		</div>
 	</div>
 <br>
-<form action="<?=URLROOT;?>/ToDo/create" method="post">
+<form action="<?=URLROOT;?>/Autos/create" method="post">
 <div class="container">
 <div class="row">
 <br><br>
+
+<div class="row">
 	<div class="col">
-	<label>omschrijving</label>
 		<div class="form-group">
-		<input type="text" placeholder="" class="form-control" name="omschrijving" value="">
+			<label>Auto</label>
+			<select class="form-select" name="Auto" aria-label="Default select example">
+			<?= $data['MankementData']?>
+</select>
+</div>
+
+	<div class="col">
+	<label>Mankement</label>
+		<div class="form-group">
+		<input type="text" placeholder="" class="form-control" name="Mankement" value="">
 		</div>
 	</div>
 	<div class="col">
 		<div class="form-group">
-			<label>AantalInBeschikking</label>
-			<input type="number" placeholder="" class="form-control" name="AantalInBeschikking" value="">
+			<label>Datum</label>
+			<input type="date" placeholder="" class="form-control" name="Datum" value="">
 		</div>
 	</div>
 </div>
 <div class="row">
 <br>
-<div class="row">
-	<div class="col">
-		<div class="form-group">
-			<label>AantalInLeen</label>
-			<input type="number" placeholder="" class="form-control" name="AantalInLeen" value="">
-		</div>
-	</div>
   <br>
-  <div class="row">
-	<div class="col">
-		<div class="form-group">
-			<label>CatogorieId</label>
-			<select class="form-select" name="CatogorieId" aria-label="Default select example">
-			<?= $data['CatogorieIdData']?>
-</select>
-</div>
+ 
 <td>
-<input type="hidden" name="id" >
+<input type="hidden" name="Id" >
   </td>  
 <div class="row">
 	<div class="col">
 </div>
 </div>
-<br><br>
-<input type="submit" value="verzenden">
+<input type="submit" value="verzenden" id="btn1">
 
+<div class="container">
+<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Autos/index" role="button" id= "btn2">Terug</a>
+</div>

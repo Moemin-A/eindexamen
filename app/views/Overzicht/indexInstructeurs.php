@@ -1,4 +1,26 @@
-<?=$data['title'];?>
+<br>
+<h3>Instructeurs overzicht</h3>
+<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/indexLeerlingen" role="button" id="btn1" >Leerlingen overzicht</a>
+<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/index" role="button" id="btn2">Algemene overzicht</a>
+
+
+<br>
+<table class="table table-dark table-striped">
+<br>
+  <thead>
+    <th scope="col">Voornaam</th>
+    <th scope="col">Tussenvoegsel</th>
+    <th scope="col">Achternaam</th>
+    <th scope="col">Adres</th>
+    <th scope="col">Woonplaats</th>
+    <th scope="col">Rol</th>
+
+  </thead>
+  <tbody>
+    <?=$data['records']?>
+  </tbody>
+</table>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,11 +30,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
 
-    <title>Hello, world!</title>
+    <title></title>
   </head>
   <body>
 
+       
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -26,53 +50,3 @@
     -->
   </body>
 </html>
-
-<div class="col text-right">
-		</div>
-	</div>
-<br>
-<form action="<?=URLROOT;?>/ToDo/create" method="post">
-<div class="container">
-<div class="row">
-<br><br>
-	<div class="col">
-	<label>omschrijving</label>
-		<div class="form-group">
-		<input type="text" placeholder="" class="form-control" name="omschrijving" value="">
-		</div>
-	</div>
-	<div class="col">
-		<div class="form-group">
-			<label>AantalInBeschikking</label>
-			<input type="number" placeholder="" class="form-control" name="AantalInBeschikking" value="">
-		</div>
-	</div>
-</div>
-<div class="row">
-<br>
-<div class="row">
-	<div class="col">
-		<div class="form-group">
-			<label>AantalInLeen</label>
-			<input type="number" placeholder="" class="form-control" name="AantalInLeen" value="">
-		</div>
-	</div>
-  <br>
-  <div class="row">
-	<div class="col">
-		<div class="form-group">
-			<label>CatogorieId</label>
-			<select class="form-select" name="CatogorieId" aria-label="Default select example">
-			<?= $data['CatogorieIdData']?>
-</select>
-</div>
-<td>
-<input type="hidden" name="id" >
-  </td>  
-<div class="row">
-	<div class="col">
-</div>
-</div>
-<br><br>
-<input type="submit" value="verzenden">
-

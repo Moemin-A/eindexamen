@@ -38,6 +38,7 @@
 
         <div class="main_content">
         <center>
+            <!-- Gebruiker Welkomscherm -->
             <div class="header" style="font-size:30px;">Welkom Gebruiker!</div>
             <div class="info"></center>
 
@@ -45,11 +46,9 @@
                 <div style="text-align:center; height:150px; pointer-events: none; cursor: default">
                     <iframe src="https://free.timeanddate.com/clock/i879pplp/n1310/fs24/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="147" height="57"></iframe>
 
-                <!-- twéé knoppen worden gemaakt waarmee je naar de IT-docent en TECH-docent paginas kan navigeren -->
                 </div>
                 <div class="main_content">
              
-           
                     <div class="info"> 
                     </div>
                 </div>

@@ -32,7 +32,7 @@
             </h1>
     </div>
     <center>
-        <!-- Alle labels om artikelen toe te voegen aan geleend.php via insertcontroller -->
+        <!-- Alle labels om een les toe te voegen via lesplanning.php controller -->
     <form method="post" action="/LesPlanning/insertLes">
     <div class="col-12 col-sm-4">
     

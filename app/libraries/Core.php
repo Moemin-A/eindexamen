@@ -5,7 +5,7 @@
    * URL FORMAT - /controller/method/params
    */
   class Core {
-    protected $currentController = 'ToDo';
+    protected $currentController = 'Overzicht';
     protected $currentMethod = 'index';
     protected $params = [];
 

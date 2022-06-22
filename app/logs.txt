@@ -1,56 +1,116 @@
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 38
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   5. Lessen->wijzigingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:100
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 38
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   5. Lessen->wijzigingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:100
-[22-Jun-2022 13:32:41 Europe/Amsterdam] PHP Notice:  Undefined index: les in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:32:41 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:32:41 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:32:41 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:32:41 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:32:41 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 13:33:27 Europe/Amsterdam] PHP Notice:  Undefined index: datum in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:33:27 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:33:27 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:33:27 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:33:27 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:33:27 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 13:33:48 Europe/Amsterdam] PHP Notice:  Undefined index: datum in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:33:48 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:33:48 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:33:48 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:33:48 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:33:48 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 13:33:53 Europe/Amsterdam] PHP Notice:  Undefined index: datum in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:33:53 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:33:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:33:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:33:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:33:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 13:37:45 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:37:45 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:37:45 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:37:45 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:37:45 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:37:45 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 13:37:53 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:37:53 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:37:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:37:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:37:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:37:53 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 13:38:00 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 92
-[22-Jun-2022 13:38:00 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 13:38:00 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 13:38:00 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 13:38:00 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 13:38:00 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP Notice:  Undefined index: records1 in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php on line 43
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:138
+[22-Jun-2022 14:42:42 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP Warning:  require_once(../app/models/datum.php): failed to open stream: No such file or directory in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP Fatal error:  require_once(): Failed opening required '../app/models/datum.php' (include_path='.;C:\php\pear') in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:04 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP Warning:  require_once(../app/models/datum.php): failed to open stream: No such file or directory in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP Fatal error:  require_once(): Failed opening required '../app/models/datum.php' (include_path='.;C:\php\pear') in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:40 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP Warning:  require_once(../app/models/datum.php): failed to open stream: No such file or directory in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP Fatal error:  require_once(): Failed opening required '../app/models/datum.php' (include_path='.;C:\php\pear') in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:44:43 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP Warning:  require_once(../app/models/datum.php): failed to open stream: No such file or directory in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP Fatal error:  require_once(): Failed opening required '../app/models/datum.php' (include_path='.;C:\php\pear') in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:45:17 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP Warning:  require_once(../app/models/datum.php): failed to open stream: No such file or directory in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP Fatal error:  require_once(): Failed opening required '../app/models/datum.php' (include_path='.;C:\php\pear') in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:45:18 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP Warning:  require_once(../app/models/datum.php): failed to open stream: No such file or directory in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP Fatal error:  require_once(): Failed opening required '../app/models/datum.php' (include_path='.;C:\php\pear') in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php on line 9
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   5. TDD\controllers\Les->view() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:109
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   6. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Controller.php:17
+[22-Jun-2022 14:45:19 Europe/Amsterdam] PHP   7. TDD\controllers\Les->model() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\views\lessen\ophaal-locatie.php:43

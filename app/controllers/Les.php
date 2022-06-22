@@ -70,7 +70,7 @@ class Les extends Controller
 
         $this->view('lessen/lessen', $data);
     }
-
+    
     // InsertController die als je niet in POST zit naar de les opmerking view stuurd
     // Als dit wel zo is wordt je doorgestuurd naar de lessen model via de functie opmerkingInsert
     public function insertWijziging() 
@@ -110,6 +110,8 @@ class Les extends Controller
         }
         
     }
+
+    
 
     // Unit test
     public function sayMyName($name)

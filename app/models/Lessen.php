@@ -38,19 +38,19 @@ class Lessen
 
             $this->db->bind(":id", NULL, PDO::PARAM_NULL);
             $this->db->bind(":lesid", $post["lesid"], PDO::PARAM_INT);
-            $this->db->bind(":straat", ($post["straat"]), PDO::PARAM_STR);
-            $this->db->bind(":woonplaats", ($post["woonplaats"]), PDO::PARAM_STR);
+            $this->db->bind(":straat", ($post["straat"]));
+            $this->db->bind(":woonplaats", ($post["woonplaats"]));
             //var_dump($this->db);exit();
             $this->db->execute(); //exit();
 
             // Checks for success / errors and prints message accordingly
             echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-            Opmerking toegevoegd.
+            Ophaallocatie gewijzigd.
             </div>';
             header("Refresh: 3; /Les/insertWijziging");
         } catch (PDOException $e) {
             echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-            Er is iets fout gegaan bij het toevoegen.
+            Er is iets fout gegaan bij het wijzigen.
             </div>';
             header("Refresh: 3; /Les/insertWijziging");
         }

@@ -1,25 +1,25 @@
 <br>
-<h3>Algemene Overzicht</h3>
-<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/indexLeerlingen" role="button" id="btn1">Leerlingen overzicht</a>
-<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/indexInstructeurs" role="button" id="btn2" >Instructeurs overzicht</a>
+<h3>Gevolgde lessen</h3>
 
 <br>
 <table class="table table-dark table-striped">
 <br>
   <thead>
-    <th scope="col">Voornaam</th>
-    <th scope="col">Tussenvoegsel</th>
-    <th scope="col">Achternaam</th>
-    <th scope="col">Adres</th>
-    <th scope="col">Woonplaats</th>
-    <th scope="col">Rol</th>
+  
+    <th scope="col"></th>
+    <th scope="col">Naam</th>
+    <th scope="col">LesDatum</th>    
+    <th scope="col"></th>    
+
+
 
   </thead>
   <tbody>
     <?=$data['records']?>
   </tbody>
 </table>
-
+<div class="alert alert-dark" role="alert">Het aantal nog te volgen lessen = 
+</div>
 <!doctype html>
 <html lang="en">
   <head>
@@ -35,7 +35,6 @@
   </head>
   <body>
 
-       
 
     <!-- Optional JavaScript; choose one of the two! -->
 

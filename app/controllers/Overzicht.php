@@ -70,37 +70,6 @@ $data = [
 
 $this->view('Overzicht/indexPakket',$data);
 }
-
-public function indexLeerlingen(){
-
-  /**
-   * Haal de studenten info op
-   */
-  try{
-    $records = "";
-    foreach($this->GebruikerModel->getLeerlingen() as $record){
-        $records .= '<tr>
-        <td>'. $record-> Voornaam . '</td>
-        <td>'. $record->Tussenvoegsel . '</td>
-        <td>'. $record->Achternaam . '</td>
-        <td>'. $record->Adres . '</td>   
-        <td>'. $record->Woonplaats . '</td>           
-        <td>'. $record->Rol . '</td>
-
-        <td>
-    </td>
-     
-    </tr>';
-    }
-}catch(PDOException $e){
-    echo $e->getMessage();
-}
-$data = [
-    "records" => $records,
-];
-
-$this->view('Overzicht/indexLeerlingen',$data);
-}
 }
 
 

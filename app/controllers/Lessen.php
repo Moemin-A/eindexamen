@@ -29,11 +29,11 @@ class Lessen extends Controller
         $rows = '';
         foreach ($lessen as $value){
             $rows .= "<tr>
-                        <td>" . $value->Id . "</td>
+                        <td>" . $value->lesnummer . "</td>
                         <td>" . $value->Datum . "</td>
                         <td>" . $value->Naam . "</td>
                         <td><a href='" . URLROOT . "/lessen/indexopmerking/$value->Id'>Opmerkingen</a></td>
-                        <td><a href='" . URLROOT . "/docenten/delete/$value->Id'>Onderwerpen</a></td>
+                        <td><a href='" . URLROOT . "/lessen/indexonderwerp/$value->Id'>Onderwerpen</a></td>
                         </tr>";
         }
 
@@ -44,14 +44,40 @@ class Lessen extends Controller
         $this->view('lessen/index', $data);
     }
 
-    public function indexOpmerking()
+     public function indexOpmerking($id)
     {
         /**
          * Haal via de method getCountries() uit de model Docent de records op
          * uit de database
          */
-        $lessen = $this->lesModel->getSingleOpmerkingen();
+        $lessen = $this->lesModel->getSingleOpmerkingen($id);
+        // var_dump($lessen);exit();
+        /**
+         * Maak de inhoud voor de tbody in de view
+         */
+        $rows = '';
+        // foreach ($lessen as $value){
+            $rows .= "<tr>
+                        <td>" . $lessen->Les . "</td>
+                        <td>" . $lessen->Opmerking . "</td>
+                        </tr>";
+        // }
 
+        $data = [
+        'title' => '<h3>Lessenoverzicht</h3>',
+        'lessen1' => $rows
+        ];
+        $this->view('lessen/indexopmerking', $data);
+    }
+
+    public function indexOnderwerp()
+    {
+        /**
+         * Haal via de method getCountries() uit de model Docent de records op
+         * uit de database
+         */
+        $lessen = $this->lesModel->getSingleOnderwerpen();
+        // var_dump($lessen);exit();
         /**
          * Maak de inhoud voor de tbody in de view
          */
@@ -59,14 +85,14 @@ class Lessen extends Controller
         foreach ($lessen as $value){
             $rows .= "<tr>
                         <td>" . $value->Les . "</td>
-                        <td>" . $value->Opmerking . "</td>
+                        <td>" . $value->Onderwerp . "</td>
                         </tr>";
         }
 
         $data = [
         'title' => '<h3>Lessenoverzicht</h3>',
-        'lessen' => $rows
+        'lessen1' => $rows
         ];
-        $this->view('lessen/indexopmerking', $data);
+        $this->view('lessen/indexonderwerp', $data);
     }
 }

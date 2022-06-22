@@ -6,7 +6,7 @@
 <table class = "table table striped">
   <thead>
     <th>Les</th>
-    <th>Opmerking</th>
+    <th>Onderwerp</th>
   </thead>
   <tbody>
     <?=$data['lessen1']?>

@@ -28,10 +28,17 @@
       return $this->db->single();
     }
 
-    public function getSingleOpmerkingen($les) {
-      $this->db->query("SELECT * FROM opmerkingen WHERE les = :les");
-      $this->db->bind(':les', $les, PDO::PARAM_STR);
-      return $this->db->single();
+    public function getSingleOpmerkingen($id) {
+      // echo $id;exit();
+      $this->db->query("SELECT * FROM opmerkingen WHERE Les = $id ");
+      $result = $this->db->single();
+      return $result;
+    }
+
+    public function getSingleOnderwerpen() {
+      $this->db->query("SELECT * FROM onderwerpen WHERE Les=Les ");
+      $result = $this->db->resultSet();
+      return $result;
     }
     
   }

@@ -13,6 +13,7 @@ class Lessen
     public function getLessen($leerling)
     {
         $this->db->query("SELECT 
+        Lessen.Id,
         Lessen.Datum,
         Leerling.straat,
         Leerling.Woonplaats,
@@ -21,6 +22,14 @@ class Lessen
         INNER JOIN Leerling ON Lessen.leerling = Leerling.Id
         INNER JOIN Instructeur ON Instructeur.Email = Lessen.instructeur
         WHERE Leerling = :id AND Datum > CURDATE() ORDER BY `Datum` ASC");
+        $this->db->bind(":id", $leerling);
+        return  $this->db->resultSet();
+    }
+
+    // Fetches all from Lessen and sends to controller
+    public function getDatum($leerling)
+    {
+        $this->db->query("SELECT * FROM Lessen WHERE Leerling = :id AND Datum > CURDATE() ORDER BY `Datum` ASC");
         $this->db->bind(":id", $leerling);
         return  $this->db->resultSet();
     }
@@ -40,7 +49,7 @@ class Lessen
             $this->db->bind(":lesid", $post["lesid"], PDO::PARAM_INT);
             $this->db->bind(":straat", ($post["straat"]));
             $this->db->bind(":woonplaats", ($post["woonplaats"]));
-            //var_dump($this->db);exit();
+            // var_dump($this->db);exit();
             $this->db->execute(); //exit();
 
             // Checks for success / errors and prints message accordingly

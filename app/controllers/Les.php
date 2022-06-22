@@ -70,11 +70,25 @@ class Les extends Controller
 
         $this->view('lessen/lessen', $data);
     }
+
+    
     
     // InsertController die als je niet in POST zit naar de les opmerking view stuurd
     // Als dit wel zo is wordt je doorgestuurd naar de lessen model via de functie opmerkingInsert
     public function insertWijziging() 
     {
+        $lessen = $this->model('Lessen');
+        try {
+            foreach ($lessen->getDatum(3) as $record) {
+                "<tr>
+                <th scope='row'>" . $record->ID . " </th>
+                <td> " . $record->Datum . "</td>
+                </td></tr>";   
+            }
+        } catch (PDOException $e) { 
+            header("Refresh:3; url = " . URLROOT . "les/reading-failed");
+        }
+
         // Initialiseer het $data array
         $data = [
             'lesid' => '',
@@ -82,13 +96,17 @@ class Les extends Controller
             'straat' => '',
             'straatError' => '',
             'woonplaats' => '',
-            'woonplaatsError' => ''
+            'woonplaatsError' => '',
+            'les' => $record->ID,
+            'datum' => $record->Datum
         ];
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
             $data = [
+                'les' => $record->ID,
+                'datum' => $record->Datum,
                 'lesid' => trim($_POST['lesid']),
                 'lesidError' => '',
                 'straat' => trim($_POST['straat']),

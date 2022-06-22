@@ -35,37 +35,15 @@
         <!-- Alle labels om een opmerking toe te voegen via les.php controller -->
     <form method="post" action="/Les/insertWijziging">
     <div class="col-12 col-sm-4">
-    
-    <?php
 
-    {
-    // Artikels tonen met de juiste leerling en naar de lessen model sturen 
-    $lessen = $this->model('datum');
-
-        try {
-            $records1 = "";
-            foreach ($lessen->getLessen(3) as $record) {
-                $records1 .= "<tr>
-                <th scope='row'>" . $record->Id . " </th>
-                <td> " . $record->datum . "</td>
-                </td></tr>";   
-            }
-
-        } catch (PDOException $e) { 
-            header("Refresh:3; url = " . URLROOT . "les/reading-failed");
-        }
-        // Data bewaren in een array en naar lessen view sturen
-        $data = [
-            "records1" => $records1,
-        ];
-    }
-?>
         <tr>
             <td>
                 <label for="les">Les:</label><br>
                 <select name="lesid" id="lesid">
-                <option value="<?php $data['records1']; ?>">2022-06-24 </option>
-                <option value="56">2022-06-28 </option>
+                <option value="">Kies lesdatum</option>
+                <option value="<?= $data['les']; ?>"><?= $data['datum']; ?></option>
+                <option value="<?= $data['les']; ?>"><?= $data['datum']; ?></option>
+                <!--  -->
                 </select><br><br>
                 <div><?= $data['lesidError']; ?></div>
             </td>

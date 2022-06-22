@@ -9,7 +9,7 @@ class Lessen
         $this->db = new Database;
     }
 
-    //  Selects all lessen in lessen depending on leerling number
+    //  Selects innerjoined records from lessen and returns to les controller 
     public function getLessen($leerling)
     {
         $this->db->query("SELECT 
@@ -20,23 +20,24 @@ class Lessen
         FROM Lessen 
         INNER JOIN Leerling ON Lessen.leerling = Leerling.Id
         INNER JOIN Instructeur ON Instructeur.Email = Lessen.instructeur
-        WHERE Leerling = :id ORDER BY `Datum` ASC");
+        WHERE Leerling = :id AND Datum > CURDATE() ORDER BY `Datum` ASC");
         $this->db->bind(":id", $leerling);
         return  $this->db->resultSet();
     }
 
     // Fetches post request from controller submit and inserts opmerking
-    public function opmerkingInsert($post)
+    public function wijzigingInsert($post)
     {
         try {
             // prepare sql and bind parameters
             // var_dump($post); echo "Hallo";exit();
-            $this->db->query("INSERT INTO opmerkingen  (ID, LES, Opmerking) 
-                                VALUES (:id, :lesid, :opmerking)");
+            $this->db->query("INSERT INTO alternatieveophaallocatie  (ID, LES, Straat, Woonplaats) 
+                                VALUES (:id, :lesid, :straat, :woonplaats)");
 
             $this->db->bind(":id", NULL);
             $this->db->bind(":lesid", $post["lesid"]);
-            $this->db->bind(":opmerking", ($post["opmerking"]));
+            $this->db->bind(":straat", ($post["straat"]));
+            $this->db->bind(":straat", ($post["woonplaats"]));
        
             $this->db->execute(); //exit();
 
@@ -44,12 +45,13 @@ class Lessen
             echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
             Opmerking toegevoegd.
             </div>';
-            header("Refresh: 3; /Les/insertOpmerking");
+            header("Refresh: 3; /Les/insertWijziging");
         } catch (PDOException $e) {
+        
             echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
             Er is iets fout gegaan bij het toevoegen.
             </div>';
-            header("Refresh: 3; /Les/insertOpmerking");
+            header("Refresh: 3; /Les/insertWijziging");
         }
     }
 }

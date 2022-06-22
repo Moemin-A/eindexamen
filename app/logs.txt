@@ -1,84 +1,14 @@
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:05:36 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:10 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP Notice:  Undefined property: stdClass::$Naam in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php on line 55
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP Stack trace:
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
-[22-Jun-2022 12:07:11 Europe/Amsterdam] PHP   4. TDD\controllers\Les->index() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 38
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 12:54:31 Europe/Amsterdam] PHP   5. Lessen->wijzigingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:100
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP Notice:  Undefined index: lesid in C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\models\Lessen.php on line 38
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP Stack trace:
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   1. {main}() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:0
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   2. require_once() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\public\index.php:2
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\require.php:10
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   4. TDD\controllers\Les->insertWijziging() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\libraries\Core.php:46
+[22-Jun-2022 12:54:37 Europe/Amsterdam] PHP   5. Lessen->wijzigingInsert() C:\Users\Infer\OneDrive\Documenten\GitHub\eindexamen\app\controllers\Les.php:100

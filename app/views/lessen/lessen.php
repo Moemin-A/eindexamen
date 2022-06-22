@@ -59,7 +59,7 @@
 </table>
     <div class="info">
 </div>
-<form method="get" action="/Les/insertOpmerking">
+<form method="get" action="/Les/insertWijziging">
     <button type="submit">Ophaallocatie wijzigen</button>
 </form>
 </div>

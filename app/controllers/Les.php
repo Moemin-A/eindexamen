@@ -73,31 +73,35 @@ class Les extends Controller
 
     // InsertController die als je niet in POST zit naar de les opmerking view stuurd
     // Als dit wel zo is wordt je doorgestuurd naar de lessen model via de functie opmerkingInsert
-    public function insertOpmerking() 
+    public function insertWijziging() 
     {
         // Initialiseer het $data array
         $data = [
-            'opmerking' => '',
-            'opmerkingError' => ''
+            'straat' => '',
+            'straatError' => '',
+            'woonplaats' => '',
+            'woonplaatsError' => ''
         ];
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
             $data = [
-                'opmerking' => trim($_POST['opmerking']),
-                'opmerkingError' => ''
+                'straat' => trim($_POST['straat']),
+                'straatError' => '',
+                'woonplaats' => trim($_POST['woonplaats']),
+                'woonplaatsError' => ''
             ];
 
             $data = $this->validateCreateForm($data);
 
-            if (empty($data['opmerkingError']) ) {
+            if (empty($data['straatError']) && empty($data['woonplaatsError']) ) {
                 $lessen = $this->model('Lessen');
-                $lessen->opmerkingInsert($_POST);
+                $lessen->wijzigingInsert($_POST);
             }
 
         } {
-            $this->view('lessen/les-opmerking', $data);
+            $this->view('lessen/ophaal-locatie', $data);
         }
         
     }
@@ -113,13 +117,23 @@ class Les extends Controller
 
         $omschrijvingValidation = "/^[a-zA-Z]*$/";
 
-        if (empty($data['opmerking'])){
-            $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            opmerking leeg.
+        if (empty($data['straat'])){
+            $data['straatError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            straat leeg.
             </div>';
-        }elseif (filter_var($data['opmerking'], FILTER_VALIDATE_EMAIL)){
-            $data['opmerkingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-            U heeft een emailadres ingevuld, graag een opmerking invullen
+        }elseif (filter_var($data['straat'], FILTER_VALIDATE_EMAIL)){
+            $data['straatError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U heeft een emailadres ingevuld, graag een straat invullen
+            </div>';
+        }
+
+        if (empty($data['woonplaats'])){
+            $data['woonplaatsError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            woonplaats leeg.
+            </div>';
+        }elseif (filter_var($data['woonplaats'], FILTER_VALIDATE_EMAIL)){
+            $data['woonplaatsError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U heeft een emailadres ingevuld, graag een woonplaats invullen
             </div>';
         }
 

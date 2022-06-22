@@ -41,8 +41,10 @@
                 <label for="les">Les:</label><br>
                 <select name="lesid" id="lesid">
                 <option value="">Kies lesdatum</option>
-                <option value="<?= $data['les']; ?>"><?= $data['datum']; ?></option>
-                <option value="<?= $data['les']; ?>"><?= $data['datum']; ?></option>
+                <option value="55">2022-06-24</option>
+                <option value="56">2022-06-28</option>
+                <!-- <option value="<?= $data['les']; ?>"><?= $data['datum']; ?></option>
+                <option value="<?= $data['les']; ?>"><?= $data['datum']; ?></option> -->
                 <!--  -->
                 </select><br><br>
                 <div><?= $data['lesidError']; ?></div>

@@ -15,16 +15,23 @@ class Overzicht extends Controller {
       $Sum= $sumA-$sumB;
       echo $Sum;
       $records = "";
-      foreach($this->GebruikerModel->getAll() as $record){
+      foreach($this->GebruikerModel->getLessen() as $record){
           $records .= '<tr>
           <td>'. $teller . '</td>
-          <td>'. $record->Tussenvoegsel . '</td>
-          <td>'. $record->Achternaam . '</td>
-          <td>'. $record->Adres . '</td>   
-          <td>'. $record->Woonplaats . '</td>           
-          <td>'. $record->Rol . '</td>
-                                        ';
+          <td>'. $record->Naam . '</td>
+          <td>'. $record-> Datum . '</td>
+                                     
+          
+          <td>
+          <a href="'. URLROOT .'/Overzicht/indexPakket">
+              <button type="button" class="btn btn-success">Pakket </button>
+          </a>
+      </td>
+
+          ';
+        $teller++;
       }
+      
   }catch(PDOException $e){
       echo $e->getMessage();
   }

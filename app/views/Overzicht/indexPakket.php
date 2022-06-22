@@ -1,19 +1,17 @@
 <br>
-<h3>Instructeurs overzicht</h3>
-<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/indexLeerlingen" role="button" id="btn1" >Leerlingen overzicht</a>
-<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/index" role="button" id="btn2">Algemene overzicht</a>
+<h3>Pakket overzicht</h3>
+<a class="btn btn-primary float-end" href="<?=URLROOT; ?>/Overzicht/index" role="button" id="btn2">Gevolgde lessen</a>
 
 
 <br>
 <table class="table table-dark table-striped">
 <br>
   <thead>
-    <th scope="col">Voornaam</th>
-    <th scope="col">Tussenvoegsel</th>
-    <th scope="col">Achternaam</th>
-    <th scope="col">Adres</th>
-    <th scope="col">Woonplaats</th>
-    <th scope="col">Rol</th>
+    <th scope="col">Aantal lessen * Les = 1 uur</th>
+    <th scope="col">Betalen in 1 keer</th>
+    <th scope="col">Betalen in termijnen</th>
+  
+
 
   </thead>
   <tbody>
@@ -35,7 +33,6 @@
     <title></title>
   </head>
   <body>
-
        
 
     <!-- Optional JavaScript; choose one of the two! -->

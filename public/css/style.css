@@ -1,0 +1,15 @@
+h3 {
+  color:black;
+}
+a {
+  color: black;
+}
+
+#test {
+  display: none;
+}
+
+.errorForm {
+  font-size: 0.7em;
+  color: red;
+}

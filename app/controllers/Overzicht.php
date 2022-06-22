@@ -9,10 +9,15 @@ class Overzicht extends Controller {
   public function index(){
 
     try{
+      $teller = 1;
+      $sumA=5;
+      $sumB=2;
+      $Sum= $sumA-$sumB;
+      echo $Sum;
       $records = "";
       foreach($this->GebruikerModel->getAll() as $record){
           $records .= '<tr>
-          <td>'. $record-> Voornaam . '</td>
+          <td>'. $teller . '</td>
           <td>'. $record->Tussenvoegsel . '</td>
           <td>'. $record->Achternaam . '</td>
           <td>'. $record->Adres . '</td>   

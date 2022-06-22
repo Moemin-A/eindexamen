@@ -43,6 +43,7 @@
                 <option value="55">2022-06-24</option>
                 <option value="56">2022-06-28 </option>
                 </select><br><br>
+                <div><?= $data['lesidError']; ?></div>
             </td>
         </tr> 
         <tr>

@@ -10,7 +10,7 @@ use \PDOException;
 class Les extends Controller
  {
 
-    public function __contstruct()
+    public function __construct()
     {
       $this->lesModel = $this->model('Lessen');
     }
@@ -77,6 +77,8 @@ class Les extends Controller
     {
         // Initialiseer het $data array
         $data = [
+            'lesid' => '',
+            'lesidError' => '',
             'straat' => '',
             'straatError' => '',
             'woonplaats' => '',
@@ -87,17 +89,20 @@ class Les extends Controller
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
             $data = [
+                'lesid' => trim($_POST['lesid']),
+                'lesidError' => '',
                 'straat' => trim($_POST['straat']),
                 'straatError' => '',
                 'woonplaats' => trim($_POST['woonplaats']),
                 'woonplaatsError' => ''
             ];
 
+            
             $data = $this->validateCreateForm($data);
-
-            if (empty($data['straatError']) && empty($data['woonplaatsError']) ) {
-                $lessen = $this->model('Lessen');
-                $lessen->wijzigingInsert($_POST);
+            
+            if (empty($data['straatError']) && empty($data['woonplaatsError']) && empty($data['lesidError']) ) {
+                //echo "Hoi";exit();
+                $lessen = $this->lesModel->wijzigingInsert($_POST);
             }
 
         } {
@@ -116,6 +121,13 @@ class Les extends Controller
     private function validateCreateForm($data) {
 
         $omschrijvingValidation = "/^[a-zA-Z]*$/";
+
+
+        if (empty($data['lesid'])){
+            $data['lesidError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            Geen datum gekozen
+            </div>';
+        }
 
         if (empty($data['straat'])){
             $data['straatError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">

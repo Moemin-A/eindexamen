@@ -44,20 +44,18 @@ class Overzicht extends Controller {
   }
 
 //haal Instructeurs info op
-public function indexInstructeurs(){
+public function indexPakket(){
 
   try{
     $records = "";
-    foreach($this->GebruikerModel->getInstructeurs() as $record){
+    foreach($this->GebruikerModel->getPakket() as $record){
         $records .= '<tr>
-        <td>'. $record-> Voornaam . '</td>
-        <td>'. $record->Tussenvoegsel . '</td>
-        <td>'. $record->Achternaam . '</td>
-        <td>'. $record->Adres . '</td>   
-        <td>'. $record->Woonplaats . '</td>           
-        <td>'. $record->Rol . '</td>
+        <td>'. $record-> AantalLessen . '</td>
+        <td>'. $record->Prijs . '</td>
+        <td>'. $record->BetaalTermijnen . '</td>
+        
 
-
+        
 
 
  ';
@@ -70,7 +68,7 @@ $data = [
    
 ];
 
-$this->view('Overzicht/indexInstructeurs',$data);
+$this->view('Overzicht/indexPakket',$data);
 }
 
 public function indexLeerlingen(){

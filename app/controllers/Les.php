@@ -50,6 +50,9 @@ class Les extends Controller
             foreach ($lessen->getLessen(3) as $record) {
                 $records1 .= "<tr>
                 <th scope='row'>" . $record->Datum . " </th>
+                <td> " . $record->straat . "</td>
+                <td> " . $record->Woonplaats . "</td>
+                <td> " . $record->Naam . "</td>
                 </td></tr>";   
             }
 

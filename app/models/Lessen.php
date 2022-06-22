@@ -12,7 +12,15 @@ class Lessen
     //  Selects all lessen in lessen depending on leerling number
     public function getLessen($leerling)
     {
-        $this->db->query("SELECT * FROM lessen WHERE Leerling = :id ORDER BY `Datum` ASC");
+        $this->db->query("SELECT 
+        Lessen.Datum,
+        Leerling.straat,
+        Leerling.Woonplaats,
+        Instructeur.Naam
+        FROM Lessen 
+        INNER JOIN Leerling ON Lessen.leerling = Leerling.Id
+        INNER JOIN Instructeur ON Instructeur.Email = Lessen.instructeur
+        WHERE Leerling = :id ORDER BY `Datum` ASC");
         $this->db->bind(":id", $leerling);
         return  $this->db->resultSet();
     }
